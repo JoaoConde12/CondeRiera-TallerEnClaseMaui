@@ -3,10 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="CondeRiera_TallerEnClaseMaui.StackLayoutPage"
              Title="StackLayoutPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+    <VerticalStackLayout Margin="20,35,20,25">
+        <Label Text="Joao Conde"
+               BackgroundColor="AliceBlue"
+               TextColor="Black"
+               FontSize="20"/>
+        <Label Text="Josué Riera"
+               BackgroundColor="Red"
+               TextColor="Black"
+               FontSize="12"/>
+        <Label Text="Aguante la Liga"
+               BackgroundColor="Cyan"
+               TextColor="Black"
+               FontSize="32"/>
+        <Button
+            x:Name="IrFlex"
+            Text="Botón para ir a Flex"
+            Clicked="IrFlexPage" />
     </VerticalStackLayout>
 </ContentPage>

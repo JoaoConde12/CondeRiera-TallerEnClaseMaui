@@ -6,4 +6,9 @@ public partial class StackLayoutPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void IrFlexPage(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new FlexLayoutPage());
+    }
 }

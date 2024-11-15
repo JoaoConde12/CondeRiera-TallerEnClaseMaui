@@ -7,14 +7,13 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="2*" />
             <RowDefinition Height="2*" />
-            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        
+
         <Label Text="Column 0, Row 0"
            Grid.Column="0"
            BackgroundColor="Yellow"/>
@@ -24,15 +23,14 @@
         <Label Grid.Row="1"
            Text="Column 0, Row 1"
            BackgroundColor="Red"/>
-        <Label Grid.Column="1"
-           Grid.Row="1"
-           Text="Column 1, Row 1"
-           BackgroundColor="Green"/>
 
-        <Button
-            Grid.Row="2"
-            x:Name="IrStack"
-            Text="Botón para ir a stack"
-            Clicked="IrStackPage" />
+        <Grid Grid.Column="1" Grid.Row="1" BackgroundColor="Green">
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                <Button
+                    x:Name="IrStack"
+                    Text="Botón para ir a stack"
+                    Clicked="IrStackPage" />
+            </StackLayout>
+        </Grid>
     </Grid>
 </ContentPage>
