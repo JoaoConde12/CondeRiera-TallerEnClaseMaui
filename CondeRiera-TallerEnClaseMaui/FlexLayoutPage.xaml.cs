@@ -6,4 +6,10 @@ public partial class FlexLayoutPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private async void OnImageTapped(object sender, EventArgs e)
+    {
+        // Navegación a AbsoluteLayoutPage
+        await Navigation.PushAsync(new AbsoluteLayoutPage());
+    }
 }
