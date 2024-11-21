@@ -15,14 +15,20 @@
         </Grid.ColumnDefinitions>
 
         <Label Text="Column 0, Row 0"
-           Grid.Column="0"
-           BackgroundColor="Yellow"/>
-        <Label Grid.Column="1"
-           Text="Column 1, Row 0"
-           BackgroundColor="Blue"/>
-        <Label Grid.Row="1"
-           Text="Column 0, Row 1"
-           BackgroundColor="Red"/>
+               Grid.Column="0"
+               BackgroundColor="Yellow"
+               VerticalTextAlignment="Center"
+               HorizontalTextAlignment="Center"/>
+        <Label Text="Column 1, Row 0"
+               Grid.Column="1"
+               BackgroundColor="Blue"
+               VerticalTextAlignment="Center"
+               HorizontalTextAlignment="Center"/>
+        <Label Text="Column 0, Row 1"
+               Grid.Row="1"
+               BackgroundColor="Red"
+               VerticalTextAlignment="Center"
+               HorizontalTextAlignment="Center"/>
 
         <Grid Grid.Column="1" Grid.Row="1" BackgroundColor="Green">
             <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
