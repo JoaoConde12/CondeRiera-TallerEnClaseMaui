@@ -5,26 +5,44 @@
              Title="AbsoluteLayoutPage">
 
     <AbsoluteLayout>
-        <!-- Contenido desplazable -->
-        <ScrollView>
+        <ScrollView AbsoluteLayout.LayoutBounds="0, 0, 1, 1"
+                    AbsoluteLayout.LayoutFlags="All">
             <VerticalStackLayout Padding="10" Spacing="10">
-                <Label Text="Elemento 1" FontSize="20" />
-                <Label Text="Elemento 2" FontSize="20" />
-                <Label Text="Elemento 3" FontSize="20" />
-                <Label Text="Elemento 4" FontSize="20" />
-                <Label Text="Elemento 5" FontSize="20" />
-                <!-- Repetir más contenido si es necesario -->
-                <Label Text="Contenido adicional para scroll..." FontSize="20" />
+                <Label Text="Joao Conde" FontSize="20" />
+                <Label Text="Josué Riera" FontSize="20" />
+                <Label Text="Victor Suquilanda" FontSize="20" />
+                <Label Text="Profe de progra" FontSize="20" />
+                <Label Text="Profe de base de datos" FontSize="20" />
+                <Label Text="Joao Conde" FontSize="20" />
+                <Label Text="Josué Riera" FontSize="20" />
+                <Label Text="Victor Suquilanda" FontSize="20" />
+                <Label Text="Profe de progra" FontSize="20" />
+                <Label Text="Profe de base de datos" FontSize="20" />
+                <Label Text="Joao Conde" FontSize="20" />
+                <Label Text="Josué Riera" FontSize="20" />
+                <Label Text="Victor Suquilanda" FontSize="20" />
+                <Label Text="Profe de progra" FontSize="20" />
+                <Label Text="Profe de base de datos" FontSize="20" />
+                <Label Text="Joao Conde" FontSize="20" />
+                <Label Text="Josué Riera" FontSize="20" />
+                <Label Text="Victor Suquilanda" FontSize="20" />
+                <Label Text="Profe de progra" FontSize="20" />
+                <Label Text="Profe de base de datos" FontSize="20" />
+                <Label Text="Joao Conde" FontSize="20" />
+                <Label Text="Josué Riera" FontSize="20" />
+                <Label Text="Victor Suquilanda" FontSize="20" />
+                <Label Text="Profe de progra" FontSize="20" />
+                <Label Text="Profe de base de datos" FontSize="20" />
             </VerticalStackLayout>
         </ScrollView>
 
-        <!-- Botón fijo en la esquina inferior derecha -->
-        <Button Text="Ir a GridLayout"
+        <Button Text="Ir a Grid"
                 BackgroundColor="Blue"
                 TextColor="White"
                 AbsoluteLayout.LayoutBounds="1, 1, AutoSize, AutoSize"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
                 Clicked="OnButtonClicked" />
+
     </AbsoluteLayout>
 
 </ContentPage>

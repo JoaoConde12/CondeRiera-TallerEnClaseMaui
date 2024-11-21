@@ -9,7 +9,6 @@ public partial class AbsoluteLayoutPage : ContentPage
 
     private async void OnButtonClicked(object sender, EventArgs e)
     {
-        // Navegar a GridLayoutPage
         await Navigation.PushAsync(new GridLayoutPage());
     }
 }
